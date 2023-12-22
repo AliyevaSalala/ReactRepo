@@ -1,0 +1,40 @@
+header {
+  background-color: rgb(155, 255, 255);
+  padding: 1.5rem 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header h1 {
+  color: rgb(27, 10, 105);
+}
+.header .icon {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.settingsIcon {
+  font-size: 25px;
+  color: rgb(27, 10, 105);
+  cursor: pointer;
+}
+.header nav ul {
+  display: flex;
+  gap: 20px;
+}
+.header nav ul li a {
+  color: white;
+  padding: 5px 15px;
+  background-color: rgb(27, 10, 105);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.header nav ul li a:hover {
+  background-color: transparent;
+  border: 1px solid rgb(27, 10, 105);
+  color: rgb(27, 10, 105);
+}
