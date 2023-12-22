@@ -1,4 +1,5 @@
 import React from "react";
+import "./index.scss"
 
 
 const Table = ({ users }) => {
@@ -7,7 +8,7 @@ const Table = ({ users }) => {
       <thead>
         <tr>
           <th>Id</th>
-          <th>Name,UserName</th>
+          <th>Name UserName</th>
           <th>Email</th>
           <th>City</th>
           <th>phone</th>
