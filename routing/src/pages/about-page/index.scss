@@ -1,0 +1,22 @@
+#about {
+  padding: 2rem 0;
+  background-color: teal;
+  .about {
+    .cards {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .card {
+        width: 30%;
+        text-align: center;
+        h1{
+            color: white;
+            font-style: italic;
+        }
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
