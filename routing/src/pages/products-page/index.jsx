@@ -15,7 +15,7 @@ const Products = () => {
       const resp = await axios(`${BASE_URL}`);
       // console.log(resp.data);
       setsuppliers(resp.data);
-      productsArr(resp.data);
+      setproductsArr(resp.data);
     } catch (error) {
       console.log(error);
     } finally {
@@ -27,11 +27,14 @@ const Products = () => {
     getData();
   }, []);
 
-//  const handleInputChange=(e)=>{
-
-//   const filtered=
-
-//  }
+  const handleInputChange = (e) => {
+    const filteredItems = productsArr.filter((item) =>
+      item.companyName
+        .toLocaleLowerCase()
+        .includes(e.target.value.toLocaleLowerCase())
+    );
+    setsuppliers(filteredItems);
+  };
 
   return (
     <div id="products">
@@ -41,8 +44,8 @@ const Products = () => {
             type="search"
             className="search"
             placeholder="search.."
-            onChange={handleInputChange}
-            value={searchItem}
+            onChange={(e) => handleInputChange(e)}
+            // value={searchItem}
           />
 
           {loading ? (
