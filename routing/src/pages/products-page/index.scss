@@ -1,12 +1,18 @@
-#products{
-    padding: 2rem 0;
-    background-color: teal;
-    .products{
-        h1{
-            color: white;
-            font-style: italic;
-            font-size: 30px;
-            text-align: center;
-        }
+#products {
+  padding: 2rem 0;
+  // background-color: teal;
+  .products {
+    input {
+      margin-bottom: 20px;
+      padding: 5px 15px;
+      outline: none;
     }
+    h1 {
+      color: rgb(19, 18, 18);
+      font-style: italic;
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
 }
