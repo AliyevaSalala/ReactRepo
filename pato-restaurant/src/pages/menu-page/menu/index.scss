@@ -1,0 +1,55 @@
+#menu {
+  padding: 2rem 0;
+
+  .menu {
+    .menu-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      button {
+        padding: 10px 20px;
+        border: 1px solid transparent;
+        background-color: rgb(221, 235, 235);
+        border-radius: 15px;
+        cursor: pointer;
+      }
+    }
+
+    .menu-cards {
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+
+      .menu-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        box-shadow: 5px 5px 5px #3b2e2e;
+        padding: 20px;
+        border-radius: 10px;
+
+        .card-right {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          h3 {
+            color: red;
+            font-size: 20px;
+          }
+          p {
+            font-style: italic;
+            font-size: 15px;
+            color: #454242;
+          }
+        }
+        .card-left {
+          font-size: 15px;
+          color: #000;
+        }
+      }
+    }
+  }
+}
