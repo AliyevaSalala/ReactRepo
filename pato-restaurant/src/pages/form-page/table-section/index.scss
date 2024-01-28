@@ -1,0 +1,61 @@
+#table-section {
+  padding: 2rem 0;
+
+  .table-section {
+    .input-btn {
+      margin: 40px 0;
+      display: flex;
+      gap: 20px;
+
+      input {
+        width: 300px;
+        padding: 8px 15px;
+        outline: none;
+        border: 1px solid transparent;
+        box-shadow: 5px 5px 5px #463a3a;
+        border-radius: 10px;
+      }
+      button {
+        padding: 8px 20px;
+        border: 1px solid transparent;
+        background-color: #463a3a;
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.7s;
+        border-radius: 10px;
+
+        &:hover {
+          box-shadow: inset 12em 0 0 0 #fff;
+          color: #463a3a;
+        }
+      }
+    }
+
+    table {
+      border: 1px solid #463a3a;
+      border-collapse: collapse;
+      th {
+        border: 1px solid #463a3a;
+        padding: 10px 20px;
+      }
+      td {
+        border: 1px solid #463a3a;
+        padding: 10px 20px;
+
+        button {
+          padding: 10px 20px;
+          border: 1px solid transparent;
+          cursor: pointer;
+          color: #fff;
+
+          &:nth-child(1) {
+            background-color: red;
+          }
+          &:nth-child(2) {
+            background-color: green;
+          }
+        }
+      }
+    }
+  }
+}

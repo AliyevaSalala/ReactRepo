@@ -1,0 +1,39 @@
+#menu-form {
+  padding: 2rem 0;
+  background-color: rgb(227, 239, 239);
+
+  .menu-form {
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    input {
+      width: 300px;
+      outline: none;
+      margin-bottom: 8px;
+      padding: 8px 15px;
+      border-radius: 5px;
+      box-shadow: 8px 8px 8px #3b3434;
+      border: 1px solid transparent;
+    }
+    select {
+      width: 100%;
+      padding: 8px 0;
+      border-radius: 10px;
+      box-shadow: 8px 8px 8px #3b3434;
+      border: 1px solid transparent;
+      margin-bottom: 10px;
+    }
+    .submit-btn {
+      width: 100%;
+      border-radius: 10px;
+      //   box-shadow: 8px 8px 8px #3b3434;
+      border: 1px solid transparent;
+      margin-bottom: 10px;
+      padding: 10px;
+      background-color: #3b3434;
+      color: #fff;
+    }
+  }
+}

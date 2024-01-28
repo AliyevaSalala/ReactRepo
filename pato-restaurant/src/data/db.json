@@ -8,13 +8,6 @@
       "category": "starters"
     },
     {
-      "id": "2",
-      "title": "AENEAN EU",
-      "desc": "Sed fermentum eros vitae eros",
-      "price": 15,
-      "category": "starters"
-    },
-    {
       "id": "3",
       "title": "SED FEUGIAT",
       "desc": "Sed fermentum eros vitae eros",
@@ -59,6 +52,20 @@
     {
       "id": "9",
       "title": "TEMPUS ALIQUE",
+      "desc": "Sed fermentum eros vitae eros",
+      "price": 45,
+      "category": "dessert"
+    },
+    {
+      "id": "20",
+      "title": "Ilk Delete",
+      "desc": "Sed fermentum eros vitae eros",
+      "price": 45,
+      "category": "dessert"
+    },
+    {
+      "id": "15",
+      "title": "Sharifaa",
       "desc": "Sed fermentum eros vitae eros",
       "price": 45,
       "category": "dessert"
