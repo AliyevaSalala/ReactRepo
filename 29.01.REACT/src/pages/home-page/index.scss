@@ -1,0 +1,15 @@
+#home-page {
+  padding: 2rem 0;
+  .home-page {
+    // text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    // align-items: center;
+
+    button {
+      padding: 5px 20px;
+      width: 200px;
+    }
+  }
+}

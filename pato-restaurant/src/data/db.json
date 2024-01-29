@@ -1,13 +1,6 @@
 {
   "menu": [
     {
-      "id": "1",
-      "title": "PINE NUT SBRISALONA",
-      "desc": "Sed fermentum eros vitae eros",
-      "price": 12,
-      "category": "starters"
-    },
-    {
       "id": "3",
       "title": "SED FEUGIAT",
       "desc": "Sed fermentum eros vitae eros",
