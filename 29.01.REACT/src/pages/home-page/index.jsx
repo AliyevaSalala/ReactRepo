@@ -4,8 +4,8 @@ import axios from "axios";
 
 const HomePage = () => {
   const BASE_URL = "https://api.adviceslip.com/advice";
-  const [count, setCount] = useState(0);
-  const [product, setProduct] = useState([]);
+  const [count, setCount] = useState(1);
+  const [product, setProduct] = useState("");
 
   //   useEffect(() => {
   //     getAllData();
@@ -34,7 +34,7 @@ const HomePage = () => {
     try {
       const res = await axios(`${BASE_URL}`);
       setProduct(res.data);
-      setCount(count + 1);
+      setCount((count) => count + 1);
     } catch (error) {}
   };
 
